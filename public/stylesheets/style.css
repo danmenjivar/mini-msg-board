@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0f9fd8;
+}
+
+.msgContainer {
+  padding-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msgElement {
+  height: 25%;
+  width: 25%;
+  border-radius: 1em;
+  border: 1px solid black;
+}
+
+.blue-btn {
+}
+
+.author {
+}

@@ -1,0 +1,11 @@
+<a href="/new">Compose New Message</a>
+<h1>{{title}}</h1>
+<div class="msgContainer">
+{{#each messages}}
+    <div class="msgElement">
+        <div class="time">{{this.added}}</div>
+        <div class="author">{{this.user}}</div>
+        <div class="msg">{{this.text}}</div>
+</div>
+{{/each}}
+    
